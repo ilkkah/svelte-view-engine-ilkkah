@@ -1,9 +1,9 @@
 {
 	"name": "svelte-view-engine-ilkkah",
-	"version": "14.12.5",
+	"version": "14.12.6",
 	"repository": "https://github.com/svelte-view-engine/svelte-view-engine",
 	"dependencies": {
-		"flowfs": "^4.0.0",
+		"flowfs": "*",
 		"ws": "^7.0.1",
 		"bluebird": "^3.7.2",
 		"chokidar": "^3.0.2",
@@ -13,9 +13,6 @@
 		"node-sass": "^5.0.0",
 		"url": "^0.11.0",
 		"yargs": "^15.1.0"
-	},
-	"peerDependencies": {
-		"svelte": "3.x"
 	},
 	"devDependencies": {
 		"mocha": "^7.1.0",
