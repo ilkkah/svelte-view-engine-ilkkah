@@ -1,6 +1,6 @@
 {
-	"name": "svelte-view-engine-ilkkah",
-	"version": "14.12.9",
+	"name": "svelte-view-engine",
+	"version": "14.12.4",
 	"repository": "https://github.com/svelte-view-engine/svelte-view-engine",
 	"dependencies": {
 		"flowfs": "^5.2.0",
