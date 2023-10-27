@@ -1,3 +1,4 @@
 node_modules
 .npmrc
 test/build
+package-lock.json
