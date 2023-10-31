@@ -259,7 +259,7 @@ module.exports = class {
 			props = "`" + json.replace(/\\/g, "\\\\") + "`";
 		}
 		
-		if (this.liveReload) {
+		if (false && this.liveReload) {
 			head += `
 				<script>
 					let socket;
@@ -284,7 +284,7 @@ module.exports = class {
 					}
 					
 					function createSocket() {
-						socket = new WebSocket("ws://" + location.hostname + ":${this.liveReload.port}");
+						socket = new WebSocket("wss://" + location.hostname + ":${this.liveReload.port}");
 						
 						socket.addEventListener("open", function() {
 							sessionStorage.setItem(storageKeys.retries, 0);
