@@ -30,10 +30,10 @@ module.exports = class {
 				port,
 			});
 			
-			this.liveReload = {
-				port,
-				socket,
-			};
+			// this.liveReload = {
+			// 	port,
+			// 	socket,
+			// };
 			
 			// remove default EventEmitter limit
 			socket.setMaxListeners(0);
