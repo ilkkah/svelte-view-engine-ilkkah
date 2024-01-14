@@ -15,7 +15,7 @@ module.exports = function(config={}) {
 		type: "html",
 		buildDir: null,
 		watch: dev,
-		liveReload: false,
+		liveReload: true,
 		ssr: true,
 		dom: true,
 		
