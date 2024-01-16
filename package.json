@@ -1,6 +1,6 @@
 	{
 	"name": "svelte-view-engine-ilkkah",
-	"version": "14.12.14",
+	"version": "14.12.15",
 	"repository": "https://github.com/svelte-view-engine/svelte-view-engine",
 	"dependencies": {
 		"@babel/core": "^7.10.4",
@@ -11,7 +11,7 @@
 		"chokidar": "^3.0.2",
 		"core-js": "^3.6.5",
 		"flowfs": "^5.2.0",
-		"get-port": "^7.0.0",
+		"get-port": "^5.1.1",
 		"md5": "^2.3.0",
 		"node-sass": "^9.0.0",
 		"rollup": "^4.9.5",
