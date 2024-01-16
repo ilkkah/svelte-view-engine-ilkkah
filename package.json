@@ -1,36 +1,36 @@
-{
+	{
 	"name": "svelte-view-engine-ilkkah",
-	"version": "14.12.12",
+	"version": "14.12.13",
 	"repository": "https://github.com/svelte-view-engine/svelte-view-engine",
 	"dependencies": {
 		"@babel/core": "^7.10.4",
 		"@babel/preset-env": "^7.10.4",
 		"@babel/runtime": "^7.10.4",
-		"@rollup/plugin-json": "^4.1.0",
+		"@rollup/plugin-json": "^6.1.0",
 		"bluebird": "^3.7.2",
 		"chokidar": "^3.0.2",
 		"core-js": "^3.6.5",
 		"flowfs": "^5.2.0",
-		"get-port": "^5.1.1",
+		"get-port": "^7.0.0",
 		"md5": "^2.3.0",
 		"node-sass": "^9.0.0",
-		"rollup": "^2.0.0",
+		"rollup": "^4.9.5",
 		"rollup-plugin-commonjs": "^10.1.0",
-		"rollup-plugin-css-only": "^3.0.0",
+		"rollup-plugin-css-only": "^4.5.2",
 		"rollup-plugin-node-resolve": "^5.2.0",
 		"rollup-plugin-svelte": "^7.0.0",
 		"string-argv": "^0.3.1",
-		"terser": "^4.8.0",
+		"terser": "^5.26.0",
 		"url": "^0.11.0",
-		"ws": "^7.0.1",
-		"yargs": "^15.1.0"
+		"ws": "^8.16.0",
+		"yargs": "^17.7.2"
 	},
 	"peerDependencies": {
 		"svelte": "3.x"
 	},
 	"devDependencies": {
-		"mocha": "^7.1.0",
-		"svelte": "^3.30.0"
+		"mocha": "^10.2.0",
+		"svelte": "^4.2.8"
 	},
 	"scripts": {
 		"test": "./node_modules/mocha/bin/mocha test/tests/**/*.test.js"
