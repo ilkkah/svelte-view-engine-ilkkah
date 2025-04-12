@@ -1,6 +1,6 @@
 {
 	"name": "svelte-view-engine-ilkkah",
-	"version": "14.12.17",
+	"version": "14.12.18",
 	"repository": "https://github.com/svelte-view-engine/svelte-view-engine",
 	"dependencies": {
 		"@babel/core": "^7.10.4",
