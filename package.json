@@ -25,12 +25,8 @@
 		"ws": "^7.0.1",
 		"yargs": "^15.1.0"
 	},
-	"peerDependencies": {
-		"svelte": "3.x"
-	},
 	"devDependencies": {
-		"mocha": "^7.1.0",
-		"svelte": "^3.30.0"
+		"mocha": "^7.1.0"
 	},
 	"scripts": {
 		"test": "./node_modules/mocha/bin/mocha test/tests/**/*.test.js"
